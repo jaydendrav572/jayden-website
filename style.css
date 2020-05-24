@@ -1,0 +1,37 @@
+<style>
+body {
+  background-color: #f0eeee;
+  color: black;
+}
+nav{
+  background-color: #D8D4D3;
+  padding: 20px;
+  color:black;
+  margin-top: 5px;
+  margin-left: -5px;
+  margin-right: -100px;
+  text-transform: uppercase;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+nav ul {
+  width:55%;
+  margin: auto;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-shadow: 2px 2px 5px white;
+}
+
+</style>
