@@ -3,6 +3,7 @@ body {
   background-color: #f0eeee;
   color: black;
 }
+
 nav{
   background-color: #D8D4D3;
   padding: 20px;
@@ -16,7 +17,7 @@ nav{
 }
 
 nav ul {
-  width:55%;
+  width: 28%;
   margin: auto;
   padding: 5px;
 }
@@ -32,6 +33,19 @@ nav ul li a {
 
 li a:hover {
   text-shadow: 2px 2px 5px white;
+}
+
+.column {
+  float: left;
+  width: 32.80%;
+  padding: 5px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 </style>
