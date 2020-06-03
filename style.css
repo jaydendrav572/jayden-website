@@ -1,4 +1,5 @@
 <style>
+
 body {
   background-color: #f0eeee;
   color: black;
@@ -37,7 +38,7 @@ li a:hover {
 
 .column {
   float: left;
-  width: 32.80%;
+  width: 32%;
   padding: 5px;
   height: 300px;
 }
@@ -48,4 +49,12 @@ li a:hover {
   clear: both;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {text-align: center;
+}
 </style>
