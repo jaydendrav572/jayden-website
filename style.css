@@ -1,7 +1,5 @@
-<style>
-
 body {
-  background-color: #f0eeee;
+  background-color: cyan;
   color: black;
 }
 
@@ -55,6 +53,10 @@ li a:hover {
   margin-right: auto;
 }
 
-h2 {text-align: center;
+ .carousel-inner > .item {
+   height: 400px;
 }
-</style>
+
+h2 {
+  text-align: center;
+}
