@@ -1,6 +1,7 @@
 body {
   background-color: cyan;
   color: black;
+  overflow-x: hidden;
 }
 
 nav{
@@ -8,7 +9,7 @@ nav{
   padding: 20px;
   color:black;
   margin-top: 5px;
-  margin-left: -50px;
+  margin-left: -20px;
   margin-right: -90px;
   text-transform: uppercase;
   font-family: helvetica;
@@ -16,9 +17,10 @@ nav{
 }
 
 nav ul {
-  width: 32%;
+  text-align: center;
   margin: auto;
   padding: 5px;
+  margin-left: -80px;
 }
 
 nav ul li {
