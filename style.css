@@ -1,7 +1,6 @@
 body {
   background-color: cyan;
   color: black;
-  overflow-x: hidden;
 }
 
 nav{
@@ -9,7 +8,7 @@ nav{
   padding: 20px;
   color:black;
   margin-top: 5px;
-  margin-left: -20px;
+  margin-left: -50px;
   margin-right: -90px;
   text-transform: uppercase;
   font-family: helvetica;
@@ -17,10 +16,9 @@ nav{
 }
 
 nav ul {
-  text-align: center;
+  width: 32%;
   margin: auto;
   padding: 5px;
-  margin-left: -80px;
 }
 
 nav ul li {
@@ -59,6 +57,14 @@ li a:hover {
    height: 400px;
 }
 
+hr.dashed {
+  border-top: 3px dashed black;
+}
+
 h2 {
   text-align: center;
+}
+
+.footer{
+  background-color: #18a5b7;
 }
