@@ -1,4 +1,6 @@
 body {
+  margin: 0;
+  padding: 0;
   background-color: cyan;
   color: black;
 }
@@ -32,6 +34,7 @@ nav ul li a {
 
 li a:hover {
   text-shadow: 2px 2px 5px white;
+  color: black;
 }
 
 .column {
@@ -66,5 +69,5 @@ h2 {
 }
 
 .footer{
-  background-color: #18a5b7;
+  background-color: #04ECF0;
 }
