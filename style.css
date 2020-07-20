@@ -50,6 +50,15 @@ li a:hover {
   clear: both;
 }
 
+#cards {
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+#shop-by-brand-logos {
+    padding-top: 20px;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -70,4 +79,8 @@ h2 {
 
 .footer{
   background-color: #04ECF0;
+}
+
+#gmail {
+    padding-top: 15px;
 }
